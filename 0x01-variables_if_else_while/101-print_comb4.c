@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - A program that print all possible different combinations
+ * main - A program that print all possible comb
  *
  * Return: 0 (Success)
  */
+
 int main(void)
+
 {
 	int a, b, c;
 
@@ -29,6 +31,6 @@ int main(void)
 	}
 	}
 	}
+	putchar('\n');
+	return (0);
 }
-
-
