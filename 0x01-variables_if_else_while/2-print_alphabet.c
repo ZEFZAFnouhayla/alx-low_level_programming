@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int n = 97;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz"
+	int i;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	while (n <= 122)
+	for (i = 0; i < 26; i++)
 	{
-	putchar(n);
-	n++;
+	putchar alp([i]);
 	}
 	putchar('\n');
 	return (0);
